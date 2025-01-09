@@ -48,7 +48,6 @@ func (s *Store) Posts() ([]storage.Post, error) {
 		}
 		posts = append(posts, p)
 	}
-
 	return posts, nil
 }
 
